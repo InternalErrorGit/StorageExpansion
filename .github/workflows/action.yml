@@ -41,6 +41,7 @@ jobs:
           git config --global user.email "phil.gatzka@gmail.com"
           git config --global user.name "Github Actions"
           git restore --staged package.json
+          git status
           npm version patch
 
       - name: Commit new version
