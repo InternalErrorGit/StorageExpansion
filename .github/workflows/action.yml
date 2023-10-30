@@ -40,8 +40,7 @@ jobs:
         run: |
           git config --global user.email "phil.gatzka@gmail.com"
           git config --global user.name "Github Actions"
-          npm version patch
-          cat package.json
+          npm version patch --no-git-tag-version
           git status
 
       - name: Commit new version
