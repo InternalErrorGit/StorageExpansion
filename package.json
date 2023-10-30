@@ -1,9 +1,9 @@
 {
-    "name": "LogToConsole",
+    "name": "storage-expansion",
     "version": "1.0.0",
     "main": "src/mod.js",
     "license": "MIT",
-    "author": "Chomp",
+    "author": "InternalError_",
     "akiVersion": "~3.7",
     "scripts": {
         "setup": "npm i",
