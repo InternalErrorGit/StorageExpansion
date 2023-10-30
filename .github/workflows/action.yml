@@ -4,3 +4,20 @@ on:
       - master
 
 jobs:
+  publish:
+    name: "Publish"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19.9.0
+      - uses: actions/checkout@v3
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
+      - run: node ./build.mjs
+      - uses: actions/upload-artifact@v3
+        with:
+          name: "internalerror_-storageexpansion-${{ steps.package-version.outputs.current-version}}"
+          path: "./dist/internalerror_-storageexpansion-${{ steps.package-version.outputs.current-version}}.zip"
+      - run: npm version patch
