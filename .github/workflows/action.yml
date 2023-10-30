@@ -9,6 +9,7 @@ jobs:
   publish:
     name: "Publish"
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Setup NodeJS
         uses: actions/setup-node@v3
