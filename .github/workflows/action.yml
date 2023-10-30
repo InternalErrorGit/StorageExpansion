@@ -8,17 +8,28 @@ jobs:
     name: "Publish"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@v3
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
         with:
           node-version: 19.9.0
-      - uses: actions/checkout@v3
-      - run: npm i
-      - name: get-npm-version
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install packages
+        run: npm run setup
+
+      - name: Get Version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@v1.3.1
-      - run: node ./build.mjs
-      - uses: actions/upload-artifact@v3
+
+      - name: Build
+        run: npm run buildinfo
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
         with:
           name: "internalerror_-storageexpansion-${{ steps.package-version.outputs.current-version}}"
           path: "./dist/internalerror_-storageexpansion-${{ steps.package-version.outputs.current-version}}.zip"
-      - run: npm version patch
+
+      - name: Increment Version
+        run: npm version patch
