@@ -33,7 +33,7 @@ jobs:
         with:
           file: "./dist/internalerror_-storageexpansion-${{ steps.info.outputs.version }}.zip"
           asset_name: "internalerror_-storageexpansion-${{ steps.info.outputs.version }}"
-          tag: "${{ steps.info.outputs.version }} - ${{ steps.info.outputs.akiVersion }}"
+          tag: "MOD=${{ steps.info.outputs.version }}-AKI=${{ steps.info.outputs.akiVersion }}"
 
       - name: Increment Version
         run: |
