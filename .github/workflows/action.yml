@@ -34,6 +34,7 @@ jobs:
           file: "./dist/internalerror_-storageexpansion-${{ steps.info.outputs.version }}.zip"
           asset_name: "internalerror_-storageexpansion-${{ steps.info.outputs.version }}"
           tag: "version=${{ steps.info.outputs.version }}"
+          override: true
 
       - name: Increment Version
         run: |
