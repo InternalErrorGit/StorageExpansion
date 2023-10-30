@@ -32,7 +32,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           file: "./dist/internalerror_-storageexpansion-${{ steps.info.outputs.version }}.zip"
-          asset_name: "internalerror_-storageexpansion-${{ steps.info.outputs.version }}"
+          asset_name: "internalerror_-storageexpansion-${{ steps.info.outputs.version }}.zip"
           tag: "v${{ steps.info.outputs.version }}"
           overwrite: true
 
