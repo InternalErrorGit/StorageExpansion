@@ -33,10 +33,13 @@ jobs:
         with:
           file: "./dist/internalerror_-storageexpansion-${{ steps.info.outputs.version }}.zip"
           asset_name: "internalerror_-storageexpansion-${{ steps.info.outputs.version }}"
-          tag: "MOD=${{ steps.info.outputs.version }}-AKI=${{ steps.info.outputs.akiVersion }}"
+          tag: "version=${{ steps.info.outputs.version }}"
 
       - name: Increment Version
         run: |
           git config --global user.email "phil.gatzka@gmail.com"
           git config --global user.name "Github Actions"
           npm version patch
+
+      - name: Commit new version
+        uses: stefanzweifel/git-auto-commit-action@v5
