@@ -22,8 +22,8 @@ jobs:
         run: npm run setup
 
       - name: Get package info
-        id: package
-        uses: codex-team/action-nodejs-package-info@v1.1
+        id: info
+        uses: jaywcjlove/github-action-package@main
 
       - name: Build
         run: npm run buildinfo
@@ -31,9 +31,9 @@ jobs:
       - name: Upload zip
         uses: svenstaro/upload-release-action@v2
         with:
-          file: "./dist/internalerror_-storageexpansion-${{ steps.package.outputs.version }}.zip"
-          asset_name: "internalerror_-storageexpansion-${{ steps.package.outputs.version }}"
-          tag: "${{ steps.package-version.outputs.current-version }} - ${{ steps.package.outputs.akiVersion }}"
+          file: "./dist/internalerror_-storageexpansion-${{ steps.info.outputs.version }}.zip"
+          asset_name: "internalerror_-storageexpansion-${{ steps.info.outputs.version }}"
+          tag: "${{ steps.info.outputs.version }} - ${{ steps.info.outputs.akiVersion }}"
 
       - name: Increment Version
         run: |
