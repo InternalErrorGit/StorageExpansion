@@ -30,7 +30,7 @@ jobs:
       - name: Upload zip
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           file: "./dist/internalerror_-storageexpansion-${{ steps.package.outputs.version }}.zip"
           asset_name: "internalerror_-storageexpansion-${{ steps.package.outputs.version }}"
           tag: ""${{ steps.package-version.outputs.current-version }} - ${{ steps.package.outputs.akiVersion }}"
