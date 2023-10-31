@@ -1,0 +1,217 @@
+{
+  "fleaPriceRoubles": 45000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 45000,
+  "itemTplToClone": "5aafbde786f774389d0cbc0f",
+  "locales": {
+    "en": {
+      "name": "7.62x39mm Ammunition case",
+      "description": "The Kiba Arms International ammunition storage case.",
+      "shortName": "7.62x39mm Ammo"
+    }
+  },
+  "newId": "item_container_ammo_Caliber762x39",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "item_container_ammo_Caliber762x39_0",
+        "_name": "item_container_ammo_Caliber762x39_0",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5656d7c34bdc2d9d198b4587"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_1",
+        "_name": "item_container_ammo_Caliber762x39_1",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "59e0d99486f7744a32234762"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_2",
+        "_name": "item_container_ammo_Caliber762x39_2",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "59e4cf5286f7741778269d8a"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_3",
+        "_name": "item_container_ammo_Caliber762x39_3",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "59e4d24686f7741776641ac7"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_4",
+        "_name": "item_container_ammo_Caliber762x39_4",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "59e4d3d286f774176a36250a"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_5",
+        "_name": "item_container_ammo_Caliber762x39_5",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "601aa3d2b2bcb34913271e6d"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_6",
+        "_name": "item_container_ammo_Caliber762x39_6",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "64b7af434b75259c590fa893"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_7",
+        "_name": "item_container_ammo_Caliber762x39_7",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "64b7af5a8532cf95ee0a0dbd"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x39_8",
+        "_name": "item_container_ammo_Caliber762x39_8",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "64b7af734b75259c590fa895"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

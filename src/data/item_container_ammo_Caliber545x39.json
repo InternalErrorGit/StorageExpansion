@@ -1,0 +1,305 @@
+{
+  "fleaPriceRoubles": 45000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 45000,
+  "itemTplToClone": "5aafbde786f774389d0cbc0f",
+  "locales": {
+    "en": {
+      "name": "5.45x39mm Ammunition case",
+      "description": "The Kiba Arms International ammunition storage case.",
+      "shortName": "5.45x39mm Ammo"
+    }
+  },
+  "newId": "item_container_ammo_Caliber545x39",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "item_container_ammo_Caliber545x39_0",
+        "_name": "item_container_ammo_Caliber545x39_0",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dfef82d2720bbd668b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_1",
+        "_name": "item_container_ammo_Caliber545x39_1",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff026d2720bb8668b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_2",
+        "_name": "item_container_ammo_Caliber545x39_2",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff061d2720bb5668b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_3",
+        "_name": "item_container_ammo_Caliber545x39_3",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff0bed2720bb0668b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_4",
+        "_name": "item_container_ammo_Caliber545x39_4",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff216d2720bbd668b4568"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_5",
+        "_name": "item_container_ammo_Caliber545x39_5",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff2ced2720bb4668b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_6",
+        "_name": "item_container_ammo_Caliber545x39_6",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff338d2720bbd668b4569"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_7",
+        "_name": "item_container_ammo_Caliber545x39_7",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff3afd2720bba668b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_8",
+        "_name": "item_container_ammo_Caliber545x39_8",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff421d2720b5f5a8b4567"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_9",
+        "_name": "item_container_ammo_Caliber545x39_9",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff4a2d2720bbd668b456a"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_10",
+        "_name": "item_container_ammo_Caliber545x39_10",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "56dff4ecd2720b5f5a8b4568"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_11",
+        "_name": "item_container_ammo_Caliber545x39_11",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5c0d5e4486f77478390952fe"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber545x39_12",
+        "_name": "item_container_ammo_Caliber545x39_12",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "61962b617c6c7b169525f168"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

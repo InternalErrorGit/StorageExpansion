@@ -1,0 +1,42 @@
+{
+  "fleaPriceRoubles": 510000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 510000,
+  "itemTplToClone": "5e2af55f86f7746d4159f07c",
+  "locales": {
+    "en": {
+      "name": "Stun Grenades",
+      "shortName": "Stun",
+      "description": "A large case for storing various hand grenades."
+    }
+  },
+  "newId": "stun_grenades_case",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "stun_grenades_case_grid_1",
+        "_name": "stun_grenades_case_grid_1",
+        "_parent": "5e2af55f86f7746d4159f07c",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "5a0c27731526d80618476ac4",
+                "619256e5f8af2c1a4e1f5d92"
+              ],
+              "ExcludedFilter": []
+            }
+          ],
+          "cellsH": 8,
+          "cellsV": 8,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

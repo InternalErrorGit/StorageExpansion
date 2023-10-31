@@ -1,0 +1,173 @@
+{
+  "fleaPriceRoubles": 45000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 45000,
+  "itemTplToClone": "5aafbde786f774389d0cbc0f",
+  "locales": {
+    "en": {
+      "name": "5.7x28mm Ammunition case",
+      "description": "The Kiba Arms International ammunition storage case.",
+      "shortName": "5.7x28mm Ammo"
+    }
+  },
+  "newId": "item_container_ammo_Caliber57x28",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "item_container_ammo_Caliber57x28_0",
+        "_name": "item_container_ammo_Caliber57x28_0",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc80f38e4a949001152b560"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber57x28_1",
+        "_name": "item_container_ammo_Caliber57x28_1",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc80f53e4a949000e1ea4f8"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber57x28_2",
+        "_name": "item_container_ammo_Caliber57x28_2",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc80f67e4a949035e43bbba"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber57x28_3",
+        "_name": "item_container_ammo_Caliber57x28_3",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc80f79e4a949033c7343b2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber57x28_4",
+        "_name": "item_container_ammo_Caliber57x28_4",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc80f8fe4a949033b0224a2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber57x28_5",
+        "_name": "item_container_ammo_Caliber57x28_5",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc86832d7f00c000d3a6e6c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber57x28_6",
+        "_name": "item_container_ammo_Caliber57x28_6",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5cc86840d7f00c002412c56c"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

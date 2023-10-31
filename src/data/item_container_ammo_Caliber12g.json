@@ -1,0 +1,393 @@
+{
+  "fleaPriceRoubles": 45000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 45000,
+  "itemTplToClone": "5aafbde786f774389d0cbc0f",
+  "locales": {
+    "en": {
+      "name": "12/70 Ammunition case",
+      "description": "The Kiba Arms International ammunition storage case.",
+      "shortName": "12/70 Ammo"
+    }
+  },
+  "newId": "item_container_ammo_Caliber12g",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "item_container_ammo_Caliber12g_0",
+        "_name": "item_container_ammo_Caliber12g_0",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "560d5e524bdc2d25448b4571"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_1",
+        "_name": "item_container_ammo_Caliber12g_1",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "58820d1224597753c90aeb13"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_2",
+        "_name": "item_container_ammo_Caliber12g_2",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5c0d591486f7744c505b416f"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_3",
+        "_name": "item_container_ammo_Caliber12g_3",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e6772a4b936088465b17c"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_4",
+        "_name": "item_container_ammo_Caliber12g_4",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e67fba4b9361bc73bc779"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_5",
+        "_name": "item_container_ammo_Caliber12g_5",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e6806a4b936088465b17e"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_6",
+        "_name": "item_container_ammo_Caliber12g_6",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e6869a4b9361c140bcfde"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_7",
+        "_name": "item_container_ammo_Caliber12g_7",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e6891a4b9361bd473feea"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_8",
+        "_name": "item_container_ammo_Caliber12g_8",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e689ca4b9361bc8618956"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_9",
+        "_name": "item_container_ammo_Caliber12g_9",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e68a8a4b9360b6c0d54e2"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_10",
+        "_name": "item_container_ammo_Caliber12g_10",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e68b3a4b9361bca7e50b5"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_11",
+        "_name": "item_container_ammo_Caliber12g_11",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e68c4a4b9361b93413f79"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_12",
+        "_name": "item_container_ammo_Caliber12g_12",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e68d1a4b93622fe60e845"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_13",
+        "_name": "item_container_ammo_Caliber12g_13",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e68dea4b9361bcc29e659"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_14",
+        "_name": "item_container_ammo_Caliber12g_14",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e68e6a4b9361c140bcfe0"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_15",
+        "_name": "item_container_ammo_Caliber12g_15",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5d6e6911a4b9361bd5780d52"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber12g_16",
+        "_name": "item_container_ammo_Caliber12g_16",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "64b8ee384b75259c590fa89b"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

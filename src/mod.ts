@@ -4,20 +4,84 @@ import {IPostAkiLoadMod} from "@spt-aki/models/external/IPostAkiLoadMod";
 import {CustomItemService} from "@spt-aki/services/mod/CustomItemService";
 import {NewItemFromCloneDetails} from "@spt-aki/models/spt/mod/NewItemDetails";
 import {DatabaseServer} from "@spt-aki/servers/DatabaseServer";
-import {Grid} from "@spt-aki/models/eft/common/tables/ITemplateItem";
 import {ItemHelper} from "@spt-aki/helpers/ItemHelper";
+
+import food_case from "./data/food_case.json";
+import drinks_case from "./data/drinks_case.json";
+import sugar_case from "./data/sugar_case.json";
+import explosive_grenades_case from "./data/explosive_grenades_case.json";
+import smoke_grenades_case from "./data/smoke_grenades_case.json";
+import stun_grenades_case from "./data/stun_grenades_case.json";
+import item_container_ammo_Caliber1143x23ACP from "./data/item_container_ammo_Caliber1143x23ACP.json"
+import item_container_ammo_Caliber127x55 from "./data/item_container_ammo_Caliber127x55.json"
+import item_container_ammo_Caliber12g from "./data/item_container_ammo_Caliber12g.json"
+import item_container_ammo_Caliber20g from "./data/item_container_ammo_Caliber20g.json"
+import item_container_ammo_Caliber23x75 from "./data/item_container_ammo_Caliber23x75.json"
+import item_container_ammo_Caliber366TKM from "./data/item_container_ammo_Caliber366TKM.json"
+import item_container_ammo_Caliber46x30 from "./data/item_container_ammo_Caliber46x30.json"
+import item_container_ammo_Caliber545x39 from "./data/item_container_ammo_Caliber545x39.json"
+import item_container_ammo_Caliber556x45NATO from "./data/item_container_ammo_Caliber556x45NATO.json"
+import item_container_ammo_Caliber57x28 from "./data/item_container_ammo_Caliber57x28.json"
+import item_container_ammo_Caliber762x25TT from "./data/item_container_ammo_Caliber762x25TT.json"
+import item_container_ammo_Caliber762x35 from "./data/item_container_ammo_Caliber762x35.json"
+import item_container_ammo_Caliber762x39 from "./data/item_container_ammo_Caliber762x39.json"
+import item_container_ammo_Caliber762x51 from "./data/item_container_ammo_Caliber762x51.json"
+import item_container_ammo_Caliber762x54R from "./data/item_container_ammo_Caliber762x54R.json"
+import item_container_ammo_Caliber86x70 from "./data/item_container_ammo_Caliber86x70.json"
+import item_container_ammo_Caliber9x18PM from "./data/item_container_ammo_Caliber9x18PM.json"
+import item_container_ammo_Caliber9x19PARA from "./data/item_container_ammo_Caliber9x19PARA.json"
+import item_container_ammo_Caliber9x21 from "./data/item_container_ammo_Caliber9x21.json"
+import item_container_ammo_Caliber9x33R from "./data/item_container_ammo_Caliber9x33R.json"
+import item_container_ammo_Caliber9x39 from "./data/item_container_ammo_Caliber9x39.json"
+import knife_case from "./data/knife_case.json"
+
+import config from "../config.json"
+import {ILogger} from "@spt-aki/models/spt/utils/ILogger";
 
 class Mod implements IPostDBLoadMod, IPostAkiLoadMod
 {
     private customItemService: CustomItemService;
     private databaseService: DatabaseServer;
     private itemHelper: ItemHelper;
+    private logger: ILogger;
+
+    private cases: NewItemFromCloneDetails[] = [
+        food_case,
+        drinks_case,
+        sugar_case,
+        explosive_grenades_case,
+        smoke_grenades_case,
+        stun_grenades_case,
+        item_container_ammo_Caliber1143x23ACP,
+        item_container_ammo_Caliber127x55,
+        item_container_ammo_Caliber12g,
+        item_container_ammo_Caliber20g,
+        item_container_ammo_Caliber23x75,
+        item_container_ammo_Caliber366TKM,
+        item_container_ammo_Caliber46x30,
+        item_container_ammo_Caliber545x39,
+        item_container_ammo_Caliber556x45NATO,
+        item_container_ammo_Caliber57x28,
+        item_container_ammo_Caliber762x25TT,
+        item_container_ammo_Caliber762x35,
+        item_container_ammo_Caliber762x39,
+        item_container_ammo_Caliber762x51,
+        item_container_ammo_Caliber762x54R,
+        item_container_ammo_Caliber86x70,
+        item_container_ammo_Caliber9x18PM,
+        item_container_ammo_Caliber9x19PARA,
+        item_container_ammo_Caliber9x21,
+        item_container_ammo_Caliber9x33R,
+        item_container_ammo_Caliber9x39,
+        knife_case
+    ]
 
     private resolve(container: DependencyContainer): void
     {
         this.customItemService = container.resolve<CustomItemService>("CustomItemService")
         this.databaseService = container.resolve<DatabaseServer>("DatabaseServer")
         this.itemHelper = container.resolve<ItemHelper>("ItemHelper")
+        this.logger = container.resolve<ILogger>("WinstonLogger")
     }
 
     postAkiLoad(container: DependencyContainer): void
@@ -28,111 +92,90 @@ class Mod implements IPostDBLoadMod, IPostAkiLoadMod
     postDBLoad(container: DependencyContainer): void
     {
         this.resolve(container);
-        for (const ammoBox of this.createAmmoBoxes())
-        {
-            this.customItemService.createItemFromClone(ammoBox)
-        }
+        this.logger.info("StorageExpansion::postDBLoad >> Start")
 
-    }
-
-    private createAmmoBoxes(): NewItemFromCloneDetails[]
-    {
-        const calibers = {
-            "Caliber1143x23ACP": ".45 ACP",
-            "Caliber127x55": "12.7x55mm",
-            "Caliber12g": "12/70",
-            "Caliber20g": "20/70",
-            "Caliber23x75": "23x75mm",
-            "Caliber366TKM": ".366 TKM",
-            "Caliber46x30": "4.6x30mm",
-            "Caliber545x39": "5.45x39mm",
-            "Caliber556x45NATO": "5.56x45mm",
-            "Caliber57x28": "5.7x28mm",
-            "Caliber762x25TT": "7.62x25mm",
-            "Caliber762x35": ".300 Blackout",
-            "Caliber762x39": "7.62x39mm",
-            "Caliber762x51": "7.62x51mm",
-            "Caliber762x54R": "7.62x54mm",
-            "Caliber86x70": ".338 Lapua Magnum",
-            "Caliber9x18PM": " 9x18mm",
-            "Caliber9x19PARA": "9x19mm",
-            "Caliber9x21": "9x21mm",
-            "Caliber9x33R": ".357 Magnum",
-            "Caliber9x39": "9x39mm"
-        };
-
-        const objects: NewItemFromCloneDetails[] = [];
-
-        for (const caliber in calibers)
-        {
-            const newItemFromCloneDetails = this.createAmmoBox(caliber, calibers[caliber]);
-            objects.push(newItemFromCloneDetails)
-        }
-
-        return objects;
-    }
-
-    private createAmmoBox(caliber: string, name: string): NewItemFromCloneDetails
-    {
-        const filters: string[] = [];
         for (const itemId in this.databaseService.getTables().templates.items)
         {
-            const item = this.databaseService.getTables().templates.items[itemId];
-            if (item._parent == "5485a8684bdc2da71d8b4567" && item._props.Caliber == caliber)
-            {
-                filters.push(itemId)
-            }
+            const item = this.databaseService.getTables().templates.items[itemId]
         }
 
-        const grids: Grid[] = [];
-
-        for (let i = 0; i < filters.length; i++)
+        this.cases.forEach(obj =>
         {
-            const filter: string = filters[i];
+            if (config.enable[obj.newId])
+            {
+                this.logger.success("Enabled item: " + obj.locales["en"].name)
+                this.customItemService.createItemFromClone(obj)
+            } else
+            {
+                this.logger.warning("Disabled item: " + obj.locales["en"].name)
+            }
+        })
 
-            grids.push({
-                _id: "item_container_ammo_" + caliber + "_" + i,
-                _name: "item_container_ammo_" + caliber + "_" + i,
-                _parent: "5aafbde786f774389d0cbc0f",
-                _proto: "55d329c24bdc2d892f8b4567",
-                _props: {
-                    cellsH: 1,
-                    cellsV: 10,
-                    isSortingTable: false,
-                    maxCount: 0,
-                    minCount: 0,
-                    maxWeight: 0,
-                    filters: [
-                        {
-                            ExcludedFilter: [],
-                            Filter: [
-                                filter
-                            ]
-                        }
-                    ]
-                }
-            })
-        }
+        this.logger.info("StorageExpansion::postDBLoad << End")
+    }
 
+    private createCase(): NewItemFromCloneDetails
+    {
         return {
-            fleaPriceRoubles: 45000,
-            handbookParentId: "5b5f6fa186f77409407a7eb7",
-            handbookPriceRoubles: 45000,
-            itemTplToClone: "5aafbde786f774389d0cbc0f",
-            locales: {
+            "fleaPriceRoubles": 65000,
+            "handbookParentId": "5b5f6fa186f77409407a7eb7",
+            "handbookPriceRoubles": 65000,
+            "itemTplToClone": "59fb042886f7746c5005a7b2",
+            "locales": {
                 "en": {
-                    name: name + " Ammunition case",
-                    description: "The Kiba Arms International ammunition storage case.",
-                    shortName: name + " Ammo"
+                    "name": "Knife Case",
+                    "shortName": "Knifes",
+                    "description": "A storage case for various knifes."
                 }
             },
-            newId: "item_container_ammo_" + caliber,
-            overrideProperties: {
-                Grids: grids
+            "newId": "knife_case",
+            "overrideProperties": {
+                "Grids": [
+                    {
+                        "_id": "knife_case_grid_1",
+                        "_name": "knife_case_grid_1",
+                        "_parent": "59fb042886f7746c5005a7b2",
+                        "_proto": "55d329c24bdc2d892f8b4567",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "54491bb74bdc2d09088b4567",
+                                        "57cd379a24597778e7682ecf",
+                                        "57e26ea924597715ca604a09",
+                                        "57e26fc7245977162a14b800",
+                                        "5bc9c1e2d4351e00367fbcf0",
+                                        "5bead2e00db834001c062938",
+                                        "5bffdc370db834001d23eca8",
+                                        "5bffdd7e0db834001b734a1a",
+                                        "5bffe7930db834001b734a39",
+                                        "5c010e350db83400232feec7",
+                                        "5c0126f40db834002a125382",
+                                        "5c012ffc0db834001d23f03f",
+                                        "5c07df7f0db834001b73588a",
+                                        "5fc64ea372b0dd78d51159dc",
+                                        "601948682627df266209af05",
+                                        "6087e570b998180e9f76dc24",
+                                        "63495c500c297e20065a08b1",
+                                        "63920105a83e15700a00f168"
+                                    ],
+                                    "ExcludedFilter": []
+                                }
+                            ],
+                            "cellsH": 8,
+                            "cellsV": 8,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        }
+                    }
+                ]
             },
-            parentId: "5795f317245977243854e041"
+            "parentId": "5795f317245977243854e041"
         }
     }
+
 
 }
 

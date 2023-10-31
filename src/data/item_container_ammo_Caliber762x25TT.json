@@ -1,0 +1,173 @@
+{
+  "fleaPriceRoubles": 45000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 45000,
+  "itemTplToClone": "5aafbde786f774389d0cbc0f",
+  "locales": {
+    "en": {
+      "name": "7.62x25mm Ammunition case",
+      "description": "The Kiba Arms International ammunition storage case.",
+      "shortName": "7.62x25mm Ammo"
+    }
+  },
+  "newId": "item_container_ammo_Caliber762x25TT",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_0",
+        "_name": "item_container_ammo_Caliber762x25TT_0",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5735fdcd2459776445391d61"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_1",
+        "_name": "item_container_ammo_Caliber762x25TT_1",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5735ff5c245977640e39ba7e"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_2",
+        "_name": "item_container_ammo_Caliber762x25TT_2",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "573601b42459776410737435"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_3",
+        "_name": "item_container_ammo_Caliber762x25TT_3",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "573602322459776445391df1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_4",
+        "_name": "item_container_ammo_Caliber762x25TT_4",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "5736026a245977644601dc61"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_5",
+        "_name": "item_container_ammo_Caliber762x25TT_5",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "573603562459776430731618"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "_id": "item_container_ammo_Caliber762x25TT_6",
+        "_name": "item_container_ammo_Caliber762x25TT_6",
+        "_parent": "5aafbde786f774389d0cbc0f",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "cellsH": 1,
+          "cellsV": 10,
+          "isSortingTable": false,
+          "maxCount": 0,
+          "minCount": 0,
+          "maxWeight": 0,
+          "filters": [
+            {
+              "ExcludedFilter": [],
+              "Filter": [
+                "573603c924597764442bd9cb"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

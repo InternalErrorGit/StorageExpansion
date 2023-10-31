@@ -1,0 +1,41 @@
+{
+  "fleaPriceRoubles": 340000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 340000,
+  "itemTplToClone": "5c093db286f7740a1b2617e3",
+  "locales": {
+    "en": {
+      "name": "Sugar",
+      "shortName": "Sugar Box",
+      "description": "Special thermal-electric bag for food storage. The Mr. Holodilnick bag chills anything, even the most unchillable."
+    }
+  },
+  "newId": "sugar_case",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "sugar_case_grid_1",
+        "_name": "sugar_case_grid_1",
+        "_parent": "",
+        "_proto": "",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "59e3577886f774176a362503"
+              ],
+              "ExcludedFilter": []
+            }
+          ],
+          "cellsH": 8,
+          "cellsV": 8,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

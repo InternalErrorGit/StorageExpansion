@@ -1,0 +1,42 @@
+{
+  "fleaPriceRoubles": 510000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 510000,
+  "itemTplToClone": "5e2af55f86f7746d4159f07c",
+  "locales": {
+    "en": {
+      "name": "Smoke Grenades",
+      "shortName": "Smoke",
+      "description": "A large case for storing various hand grenades."
+    }
+  },
+  "newId": "smoke_grenades_case",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "smoke_grenades_case_grid_1",
+        "_name": "smoke_grenades_case_grid_1",
+        "_parent": "5e2af55f86f7746d4159f07c",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "617aa4dd8166f034d57de9c5",
+                "5a2a57cfc4a2826c6e06d44a"
+              ],
+              "ExcludedFilter": []
+            }
+          ],
+          "cellsH": 8,
+          "cellsV": 8,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

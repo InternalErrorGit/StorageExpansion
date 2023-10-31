@@ -1,0 +1,33 @@
+{
+  "enable": {
+    "IMPORTANT! BEFORE DISABLING ITEMS, MAKE SURE TO DISCARD THEM FROM YOUR STASH": null,
+    "food_case": true,
+    "drinks_case": true,
+    "sugar_case": true,
+    "explosive_grenades_case": true,
+    "smoke_grenades_case": true,
+    "stun_grenades_case": true,
+    "item_container_ammo_Caliber1143x23ACP": true,
+    "item_container_ammo_Caliber127x55": true,
+    "item_container_ammo_Caliber12g": true,
+    "item_container_ammo_Caliber20g": true,
+    "item_container_ammo_Caliber23x75": true,
+    "item_container_ammo_Caliber366TKM": true,
+    "item_container_ammo_Caliber46x30": true,
+    "item_container_ammo_Caliber545x39": true,
+    "item_container_ammo_Caliber556x45NATO": true,
+    "item_container_ammo_Caliber57x28": true,
+    "item_container_ammo_Caliber762x25TT": true,
+    "item_container_ammo_Caliber762x35": true,
+    "item_container_ammo_Caliber762x39": true,
+    "item_container_ammo_Caliber762x51": true,
+    "item_container_ammo_Caliber762x54R": true,
+    "item_container_ammo_Caliber86x70": true,
+    "item_container_ammo_Caliber9x18PM": true,
+    "item_container_ammo_Caliber9x19PARA": true,
+    "item_container_ammo_Caliber9x21": true,
+    "item_container_ammo_Caliber9x33R": true,
+    "item_container_ammo_Caliber9x39": true,
+    "knife_case": true
+  }
+}

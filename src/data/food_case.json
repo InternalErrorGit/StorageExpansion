@@ -1,0 +1,43 @@
+{
+  "fleaPriceRoubles": 340000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 340000,
+  "itemTplToClone": "5c093db286f7740a1b2617e3",
+  "locales": {
+    "en": {
+      "name": "Food",
+      "shortName": "Food Cooler",
+      "description": "Special thermal-electric bag for food storage. The Mr. Holodilnick bag chills anything, even the most unchillable."
+    }
+  },
+  "newId": "food_case",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "food_case_grid_1",
+        "_name": "food_case_grid_1",
+        "_parent": "",
+        "_proto": "",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "5448e8d04bdc2ddf718b4569"
+              ],
+              "ExcludedFilter": [
+                "59e3577886f774176a362503"
+              ]
+            }
+          ],
+          "cellsH": 8,
+          "cellsV": 8,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}

@@ -1,0 +1,47 @@
+{
+  "fleaPriceRoubles": 510000,
+  "handbookParentId": "5b5f6fa186f77409407a7eb7",
+  "handbookPriceRoubles": 510000,
+  "itemTplToClone": "5e2af55f86f7746d4159f07c",
+  "locales": {
+    "en": {
+      "name": "Explosive Grenades",
+      "shortName": "Explosive",
+      "description": "A large case for storing various hand grenades."
+    }
+  },
+  "newId": "explosive_grenades_case",
+  "overrideProperties": {
+    "Grids": [
+      {
+        "_id": "explosive_grenades_case_grid_1",
+        "_name": "explosive_grenades_case_grid_1",
+        "_parent": "5e2af55f86f7746d4159f07c",
+        "_proto": "55d329c24bdc2d892f8b4567",
+        "_props": {
+          "filters": [
+            {
+              "Filter": [
+                "5710c24ad2720bc3458b45a3",
+                "58d3db5386f77426186285a0",
+                "5448be9a4bdc2dfd2f8b456a",
+                "617fd91e5539a84ec44ce155",
+                "618a431df1eb8e24b8741deb",
+                "5e32f56fcb6d5863cc5e5ee4",
+                "5e340dcdcb6d5863cc5e5efb"
+              ],
+              "ExcludedFilter": []
+            }
+          ],
+          "cellsH": 8,
+          "cellsV": 8,
+          "minCount": 0,
+          "maxCount": 0,
+          "maxWeight": 0,
+          "isSortingTable": false
+        }
+      }
+    ]
+  },
+  "parentId": "5795f317245977243854e041"
+}
